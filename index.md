@@ -1,10 +1,13 @@
-## This is THE github project page for MultiDecoder-DPRNN(a source separation system that automatically adapts to an arbitrary number of speakers, and outputs the corresponding number of sources).
+## This is the github project page for MultiDecoder-DPRNN(a source separation system that automatically adapts to an arbitrary number of speakers, and outputs the corresponding number of sources).
 Code can be found here as a part of the Asteroid source separation library: https://github.com/asteroid-team/asteroid/tree/master/egs/wsj0-mix-var/Multi-Decoder-DPRNN\
 
 To test the model on your own dataset, download the example model and configuration from HuggingFace https://huggingface.co/JunzheJosephZhu/MultiDecoderDPRNN, and run python eval.py --test_dir <format_string>. The format string should indicate folder name for the json files, and be formattable with a single number that indicates ground truth number of speakers. For example, you could have json files "2speakers/s2.json" and "3speakers/s3.json", and your format string would be "{}speakers", while your config file should have n_srcs: [2, 3].
 
 ## What is Multi-Decoder DPRNN? How does it work?
-This work is a modification to common audio separation models, like DPRNN. I will briefly explain how DPRNN works, and then explain how our Multi-Decoder mechanism allows it to generalize to an arbitrary number of speakers.
+This work is a modification to common audio separation models, like DPRNN, or Conv-TasNet. I will briefly explain how these models work, and then explain how our Multi-Decoder mechanism allows them to generalize to an arbitrary number of speakers.
+### How does DPRNN work?
+First, given a mixture signal of T samples, we want to train a neural network to output S tracks of T samples, each representing a source in the mixture. In common models like DPRNN or Conv-TasNet, we assume S is known beforehand, which is usually untrue in real world applications. 
+
 
 
 
