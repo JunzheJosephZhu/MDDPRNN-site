@@ -1,5 +1,6 @@
-## This is the github project page for MultiDecoder-DPRNN(for source separation with variable-number speakers). We are still refactoring the code, and will open source shortly after.
-Code can be found here: https://github.com/JunzheJosephZhu/MultiDecoder-DPRNN
+## This is the github project page for MultiDecoder-DPRNN(a source separation system that automatically adapts to an arbitrary number of speakers, and outputs the corresponding number of sources).
+Code can be found here as a part of the Asteroid source separation library: https://github.com/asteroid-team/asteroid/tree/master/egs/wsj0-mix-var/Multi-Decoder-DPRNN
+To test the model on your own dataset, download the example model and configuration from HuggingFace https://huggingface.co/JunzheJosephZhu/MultiDecoderDPRNN, and run python eval.py --test_dir <format_string>. The format string should indicate folder name for the json files, and be formattable with a single number that indicates ground truth number of speakers. For example, you could have json files "2speakers/s2.json" and "3speakers/s3.json", and your format string would be "{}speakers", while your config file should have n_srcs: [2, 3].
 ## Input(Mixture):
 <audio controls class="audio-player" preload="metadata" style="width: 180px;"> <source src="examples/2_mixture.wav" type="audio/wav"></audio>
 ## Output(Estimated Sources)
