@@ -1,2 +1,5 @@
-$content-width: 100%;
 theme: jekyll-theme-cayman
+.main {
+  width: 80%;
+  max-width: 2000px;
+}
