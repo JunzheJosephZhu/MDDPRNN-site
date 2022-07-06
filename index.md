@@ -3,6 +3,10 @@ Code can be found here as a part of the Asteroid source separation library: http
 
 To test the model on your own dataset, download the example model and configuration from HuggingFace https://huggingface.co/JunzheJosephZhu/MultiDecoderDPRNN, and run python eval.py --test_dir <format_string>. The format string should indicate folder names for the json files that contain the filenames of the .wav files you want to test, and should be formattable with a single number that indicates the ground truth number of speakers. For example, you could have json files "2speakers/s2.json" and "3speakers/s3.json", and your format string would be "{}speakers", while your config file should have n_srcs: [2, 3].
 
+
+# TODO:
+add description about the results/runtime, citation
+
 ## What is Multi-Decoder DPRNN? How does it work?
 This work is a modification to common audio separation models, like DPRNN, or Conv-TasNet. I will briefly explain how these models work, and then explain how our Multi-Decoder mechanism allows them to generalize to an arbitrary number of speakers.
 ### How does DPRNN work?
