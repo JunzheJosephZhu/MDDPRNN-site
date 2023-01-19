@@ -1,3 +1,8 @@
+<meta charset="utf-8">
+<title>Redirecting to https://github.com/JunzheJosephZhu/MultiDecoder-DPRNN/</title>
+<meta http-equiv="refresh" content="0; URL=https://github.com/JunzheJosephZhu/MultiDecoder-DPRNN">
+<link rel="canonical" href="https://example.com/">
+
 To test the model on your own dataset, download the example model and configuration from HuggingFace https://huggingface.co/JunzheJosephZhu/MultiDecoderDPRNN, and run python eval.py --test_dir <format_string>. The format string should indicate folder names for the json files that contain the filenames of the .wav files you want to test, and should be formattable with a single number that indicates the ground truth number of speakers. For example, you could have json files "2speakers/s2.json" and "3speakers/s3.json", and your format string would be "{}speakers", while your config file should have n_srcs: [2, 3].
 
 
