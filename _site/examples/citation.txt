@@ -1,0 +1,9 @@
+@INPROCEEDINGS{9414205,
+  author={Zhu, Junzhe and Yeh, Raymond A. and Hasegawa-Johnson, Mark},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Multi-Decoder Dprnn: Source Separation for Variable Number of Speakers}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={3420-3424},
+  doi={10.1109/ICASSP39728.2021.9414205}}
