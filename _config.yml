@@ -1,7 +1,7 @@
 # remote_theme: mmistakes/minimal-mistakes
 theme: minima
 classes: wide
-title: "" 
+title: "This is the project page for Multi-Decoder DPRNN" 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
