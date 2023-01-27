@@ -4,7 +4,7 @@
 *<center><font size="4">ICASSP 2021</font></center>*
 <center><font size="4">Junzhe Zhu, Raymond Yeh, Mark Hasegawa-Johnson</font></center>
 <center><font size="4">
-<a href="https://github.com/JunzheJosephZhu/asteroid/tree/master/egs/wsj0-mix-var/Multi-Decoder-DPRNN">[code]</a>
+<a href="https://github.com/asteroid-team/asteroid/tree/master/egs/wsj0-mix-var/Multi-Decoder-DPRNN">[code]</a>
 <a href="http://www.isle.illinois.edu/speech_web_lg/pubs/2021/zhu2021multi.pdf">[paper]</a>
 <a href="examples/citation.txt" target="_blank">[BibTeX]</a>
 </font></center>
