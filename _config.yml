@@ -1,7 +1,7 @@
 # remote_theme: mmistakes/minimal-mistakes
 theme: minima
 classes: wide
-title: "Multi-Decoder DPRNN: High Accuracy Source Counting and Separation - Junzhe Zhu" 
+title: "Multi-Decoder DPRNN: High Accuracy Source Counting and Separation - Project Page" 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
